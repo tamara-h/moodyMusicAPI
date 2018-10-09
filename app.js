@@ -48,5 +48,5 @@ app.use(function(err, req, res, next) {
 
 
 // Set up the serverless app
-module.exports.handler = serverless(app);
-// module.exports = app;
+// module.exports.handler = serverless(app);
+module.exports = app;
